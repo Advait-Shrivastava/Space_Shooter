@@ -38,6 +38,9 @@ BG = pygame.transform.scale(pygame.image.load(os.path.join("assets","background-
 # Loading LIFE image
 LIFE = pygame.image.load(os.path.join("assets","heart.png"))
 
+# Loading ICON image
+ICON = pygame.image.load(os.path.join("assets","icon.png"))
+pygame.display.set_icon(ICON)
 
 kills  = 0
 
